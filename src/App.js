@@ -1,8 +1,8 @@
-import logo from './logo.svg';
 import './App.scss';
 import { Routes, Route } from 'react-router-dom'
 import Layout from './components/Layout'
 import Home from './components/Home'
+import MouseTrail from './components/MouseTrail'
 
 function App() {
   return (
@@ -12,6 +12,7 @@ function App() {
           <Route index element={<Home />} />
         </Route>
       </Routes>
+      {/* <MouseTrail /> */}
     </>
   )
 }
