@@ -28,25 +28,25 @@ const Sidebar = () => (
         <ul>
             <li>
                 <a target='_blank' rel='noreferrer' href='https://www.linkedin.com/in/ryan-mccutcheon-185b261b8/'>
-                    <FontAwesomeIcon icon={faLinkedin} colo='#4d4d4er' />
+                    <FontAwesomeIcon icon={faLinkedin} color='#4d4d4e' />
                 </a>
             </li>
 
             <li>
                 <a target='_blank' rel='noreferrer' href='https://github.com/ryanmccutcheon21'>
-                    <FontAwesomeIcon icon={faGithub} colo='#4d4d4er' />
+                    <FontAwesomeIcon icon={faGithub} color='#4d4d4e' />
                 </a>
             </li>
 
             <li>
                 <a target='_blank' rel='noreferrer' href='https://www.linkedin.com/in/ryan-mccutcheon-185b261b8/'>
-                    <FontAwesomeIcon icon={faYoutube} colo='#4d4d4er' />
+                    <FontAwesomeIcon icon={faYoutube} color='#4d4d4e' />
                 </a>
             </li>
 
             <li>
                 <a target='_blank' rel='noreferrer' href='https://www.linkedin.com/in/ryan-mccutcheon-185b261b8/'>
-                    <FontAwesomeIcon icon={faSkype} colo='#4d4d4er' />
+                    <FontAwesomeIcon icon={faSkype} color='#4d4d4e' />
                 </a>
             </li>
         </ul>
