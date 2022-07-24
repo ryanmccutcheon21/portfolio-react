@@ -2,7 +2,6 @@ import './App.scss';
 import { Routes, Route } from 'react-router-dom'
 import Layout from './components/Layout'
 import Home from './components/Home'
-import MouseTrail from './components/MouseTrail'
 
 function App() {
   return (
@@ -13,6 +12,7 @@ function App() {
         </Route>
       </Routes>
       {/* <MouseTrail /> */}
+      {/* <MouseParticles /> */}
     </>
   )
 }

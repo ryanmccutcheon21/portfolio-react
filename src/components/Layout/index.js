@@ -1,6 +1,8 @@
 import './index.scss'
 import Sidebar from '../Sidebar'
 import { Outlet } from 'react-router-dom'
+import Hamburger from '../Hamburger/Hamburger'
+import MouseParticles from '../MouseParticles'
 
 const Layout = () => {
     return (
@@ -14,6 +16,8 @@ const Layout = () => {
                     <span className='bottom-tag-html'>&lt;/html&gt;</span>
                 </span>
             </div>
+            {/* <MouseParticles /> */}
+            {/* <Hamburger /> */}
         </div>
     )
 }

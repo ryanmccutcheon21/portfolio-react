@@ -8,8 +8,30 @@
     min-height: 500px;
 
     .logo {
-        display: block;
+        // display: block;
         padding: 8px 0;
+        text-decoration: none;
+        display: flex-column;
+        justify-content: center;
+        align-items: center;
+
+        p {
+            color: #9d0208;
+            font-size: 5rem;
+            text-decoration: none;
+            text-shadow: #ffd700 -3px 3px;
+            font-family: 'Coolvetica';
+            display: block;
+            margin: 0;
+            padding-left: 1.75rem;
+
+            &.sub-logo-name {
+                font-size: 2rem;
+                text-shadow: none;
+                text-decoration: none;
+                padding-right: 2rem;
+            }
+        }
 
         img {
             display: block;

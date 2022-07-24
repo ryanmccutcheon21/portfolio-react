@@ -9,8 +9,10 @@ import { faGithub, faLinkedin, faSkype, faYoutube } from '@fortawesome/free-bran
 const Sidebar = () => (
     <div className='nav-bar'>
         <Link className="logo" to='/'>
-            <img src={LogoS} alt="logo" />
-            <img className='sub-logo' src={LogoSubtitle} alt="ryan" />
+            {/* <img src={LogoS} alt="logo" /> */}
+            <p>R</p>
+            {/* <p className='sub-logo-name'>Ryan</p> */}
+            {/* <img className='sub-logo' src={LogoSubtitle} alt="ryan" /> */}
         </Link>
         <nav>
             <NavLink exact='true' activeclassname='active' to='/'>
