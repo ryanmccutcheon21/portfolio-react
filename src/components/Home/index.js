@@ -27,13 +27,15 @@ const Home = () => {
         <div className="container home-page">
             <div className="text-zone">
                 <h1>
-                    <span className={letterClass}>H</span>
-                    <span className={`${letterClass} _12`}>i,</span>
+                    <span className={`${letterClass}_11 text-animate-hover`}>H</span>
+                    <span className={`${letterClass}_12 text-animate-hover`}>i</span>
+                    <span className={`${letterClass}_12 text-animate-hover`}>,</span>
                     <br />
-                    <span className={`${letterClass} _13`}>I</span>
-                    <span className={`${letterClass} _14`}>'m</span>
+                    <span className={`${letterClass}_13 text-animate-hover`}>I</span>
+                    <span className={`${letterClass}_14 text-animate-hover`}>'</span>
+                    <span className={`${letterClass}_14 text-animate-hover`}>m</span>
                     {/* <img src={LogoTitle} alt='developer' /> */}
-                    <span className='letter-logo-r'> R</span>
+                    <span className={`letter-logo-r text-animate-hover`}> R</span>
                     <AnimatedLetters
                         letterClass={letterClass}
                         strArray={nameArray}

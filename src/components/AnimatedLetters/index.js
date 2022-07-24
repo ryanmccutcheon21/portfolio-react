@@ -6,7 +6,7 @@ const AnimatedLetters = ({ letterClass, strArray, index }) => {
         <span>
             {
                 strArray.map((char, i) => (
-                    <span key={char + i} className={`${letterClass} _${i + index}`}>
+                    <span key={char + i} className={`${letterClass}_${i + index} text-animate-hover`}>
                         {char}
                     </span>
                 ))
