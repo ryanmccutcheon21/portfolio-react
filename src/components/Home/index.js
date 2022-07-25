@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom'
 import './index.scss'
 import AnimatedLetters from '../AnimatedLetters'
 import React, { useEffect, useState } from 'react'
-import Logo from './Logo'
+// import Logo from './Logo'
 
 
 const Home = () => {
@@ -34,7 +34,6 @@ const Home = () => {
                     <span className={`${letterClass}_13 text-animate-hover`}>I</span>
                     <span className={`${letterClass}_14 text-animate-hover`}>'</span>
                     <span className={`${letterClass}_14 text-animate-hover`}>m</span>
-                    {/* <img src={LogoTitle} alt='developer' /> */}
                     <span className={`letter-logo-r text-animate-hover`}> R</span>
                     <AnimatedLetters
                         letterClass={letterClass}
@@ -51,7 +50,7 @@ const Home = () => {
                 <h2>MongoDB | Express | React | Node</h2>
                 <Link to='/contact' className='flat-button'>CONTACT ME</Link>
             </div>
-            <Logo />
+            {/* <Logo /> */}
         </div>
     )
 }
