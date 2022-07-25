@@ -1,14 +1,14 @@
 import { Route, Routes } from 'react-router-dom'
-import Home from './components/Home'
-import About from './components/About'
+import Home from './pages/Home'
+import About from './pages/About'
 // import Contact from './components/Contact'
 import Layout from './components/Layout'
-import Skills from './components/Skills'
+import Skills from './pages/Skills'
 // import Portfolio from './components/Portfolio'
 // import Dashboard from './components/Dashboard'
 import './App.scss'
-import Work from './components/Work/Work'
-import Contact from './components/Contact/Contact'
+import Work from './pages/Work/Work'
+import Contact from './pages/Contact/Contact'
 
 function App() {
   return (

@@ -1,6 +1,6 @@
 import React from 'react'
 import './index.scss'
-import AnimatedLetters from '../AnimatedLetters'
+import AnimatedLetters from '../../components/AnimatedLetters'
 import { Link } from 'react-router-dom'
 
 

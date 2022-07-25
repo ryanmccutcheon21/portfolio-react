@@ -1,5 +1,5 @@
 import React from 'react'
-import Carousel from '../Carousel/Carousel'
+import Carousel from '../../components/Carousel/Carousel'
 import './Work.scss'
 import { Link } from 'react-router-dom'
 
