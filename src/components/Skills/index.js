@@ -18,7 +18,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 const Skills = () => {
     return (
-        <div className='flex-col flex justify-center pl-40 lg:flex-row'>
+        <div className='flex-col flex justify-center pl-40 xl:flex-row overflow-scroll pt-[50rem]'>
             <div className='flex-col'>
                 <h1 className='skills-text'>
                     <AnimatedLetters
@@ -36,14 +36,31 @@ const Skills = () => {
                     I also have full-stack developer experience with popular open-source CMS like (WordPress, Drupal, Magento, Keystone.js and others).
                     <br />
                     <br />
-                    Visit my <a href='https://www.linkedin.com/in/ryan-mccutcheon-185b261b8/' target='_blank'>LinkedIn</a> profile for more details or just <Link to='/contact'>contact</Link> me.
+                    Visit my <a href='https://www.linkedin.com/in/ryan-mccutcheon-185b261b8/' target='_blank' className='text-[#ffd700]'>LinkedIn</a> profile for more details or just <Link className='text-[#ffd700]' to='/contact'>contact</Link> me.
                 </p>
             </div>
-            <div className='flex flex-col pt-10'>
-                <p>React</p>
-                <p>Node</p>
-                <p>MongoDB</p>
-                <p>Express</p>
+            <div className='flex flex-col pt-10 w-[100%]'>
+                <p className='border-b-2 border-blue-400 pb-2 text-[2rem]'>React</p>
+                <p className='border-b-2 text-[2rem] border-green-600 pb-2 pt-3'>Node</p>
+                <p className='border-b-2 text-[2rem] border-green-600 pb-2 pt-2'>MongoDB</p>
+                <p className='border-b-2 text-[2rem] border-white pb-2 pt-2'>Express</p>
+                <p className='border-b-2 text-[2rem] pb-2 pt-2 border-green-600'>Vue</p>
+                <p className='border-b-2 text-[2rem] border-purple-500 pb-2 pt-2'>Bootstrap</p>
+                <p className='border-b-2 text-[2rem] border-blue-400 pb-2 pt-2'>TailwindCSS</p>
+                <div className='work-row flex flex-col w-[95%] md:mt-[2rem] xl:mt-[3rem] xl:w-[100%] flex justify-between'>
+                    <div className='work-box bg-[#2a2a2a] flex flex-col'>
+                        <header className='text-white bg-[#2a2a2a] text-[3rem] font-[Coolvetica]'>Frontend developer</header>
+                        <section className='text-gray-400 text-[2rem] font-[Coolvetica]'>To The End</section>
+                        <time className='text-gray-400 font-[Coolvetica] text-[1.7rem]'>Jan. 2019-May 2021</time>
+                        <footer className='text-gray-400 font-[Coolvetica] text-[1.7rem]'>Award-winning Content Marketing Agency specialises in creating and sharing engaging content.</footer>
+                    </div>
+                    <div className='work-box bg-[#2a2a2a] flex flex-col mt-5 mb-[7rem]'>
+                        <header className='text-white bg-[#2a2a2a] text-[3rem] font-[Coolvetica]'>Fullstack developer</header>
+                        <section className='text-gray-400 text-[2rem] font-[Coolvetica]'>Pixxels Digital</section>
+                        <time className='text-gray-400 font-[Coolvetica] text-[1.7rem]'>Jan. 2019-May 2021</time>
+                        <footer className='text-gray-400 font-[Coolvetica] text-[1.7rem]'>Creative brand, website design and development studio that can bring your online business dreams to life.</footer>
+                    </div>
+                </div>
             </div>
         </div>
     )

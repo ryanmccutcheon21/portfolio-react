@@ -111,6 +111,12 @@
             }
         }
 
+        a.work-link {
+            &::after {
+                content: 'WORK';
+            }
+        }
+
         a.contact-link {
             &::after {
                 content: 'CONTACT';
