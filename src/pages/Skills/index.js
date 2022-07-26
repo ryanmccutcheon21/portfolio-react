@@ -18,8 +18,8 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 const Skills = () => {
     return (
-        <div className='flex-col flex justify-center pl-40 xl:flex-row overflow-scroll pt-[50rem]'>
-            <div className='flex-col'>
+        <div className='container skills-page'>
+            <div className='text-zone'>
                 <h1 className='skills-text'>
                     <AnimatedLetters
                         strArray={['S', 'k', 'i', 'l', 'l', 's', ' ', '&', ' ', 'E', 'x', 'p', 'e', 'r', 'i', 'e', 'n', 'c', 'e']}
@@ -39,7 +39,13 @@ const Skills = () => {
                     Visit my <a href='https://www.linkedin.com/in/ryan-mccutcheon-185b261b8/' target='_blank' className='text-[#ffd700]'>LinkedIn</a> profile for more details or just <Link className='text-[#ffd700]' to='/contact'>contact</Link> me.
                 </p>
             </div>
-            <div className='flex flex-col pt-10 w-[100%]'>
+
+
+
+
+            {/* Technologies */}
+
+            <div className='flex flex-col pt-10'>
                 <p className='border-b-2 border-blue-400 pb-2 text-[2rem]'>React</p>
                 <p className='border-b-2 text-[2rem] border-green-600 pb-2 pt-3'>Node</p>
                 <p className='border-b-2 text-[2rem] border-green-600 pb-2 pt-2'>MongoDB</p>
@@ -47,6 +53,11 @@ const Skills = () => {
                 <p className='border-b-2 text-[2rem] pb-2 pt-2 border-green-600'>Vue</p>
                 <p className='border-b-2 text-[2rem] border-purple-500 pb-2 pt-2'>Bootstrap</p>
                 <p className='border-b-2 text-[2rem] border-blue-400 pb-2 pt-2'>TailwindCSS</p>
+
+
+
+                {/* Work Experience */}
+
                 <div className='work-row flex flex-col w-[95%] md:mt-[2rem] xl:mt-[3rem] xl:w-[100%] flex justify-between'>
                     <div className='work-box bg-[#2a2a2a] flex flex-col'>
                         <header className='text-white bg-[#2a2a2a] text-[3rem] font-[Coolvetica]'>Frontend developer</header>

@@ -19,12 +19,10 @@
                 content: '<h1>';
                 font-family: 'La Belle Aurore', cursive;
                 color: #ffd700;
-                font-size: 2rem;
+                font-size: 18px;
                 position: absolute;
-                // margin-top: 10px;
-                // margin-left: 10px;
-                left: 1rem;
-                top: 15rem;
+                margin-top: -50px;
+                margin-left: -15px;
                 animation: fadeIn 1s 1.7s backwards;
                 opacity: 0.6;
             }

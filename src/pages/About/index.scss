@@ -7,6 +7,30 @@
         padding-left: 8rem;
         justify-content: center;
 
+        h1 {
+            &::before {
+                content: '<h1>';
+                font-size: 18px;
+                color: #ffd700;
+                opacity: 0.6;
+                position: relative;
+                padding-left: 1rem;
+                display: block;
+                font-family: "la Belle Aurore";
+            }
+
+            &::after {
+                content: '</h1>';
+                font-size: 18px;
+                color: #ffd700;
+                opacity: 0.6;
+                position: relative;
+                padding-left: 1rem;
+                display: block;
+                font-family: "la Belle Aurore";
+            }
+        }
+
         .about-p {
             &::before {
                 content: '<p>';

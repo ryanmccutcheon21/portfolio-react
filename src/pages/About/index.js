@@ -36,7 +36,7 @@ const About = () => {
             <div className='text-zone'>
                 <h1>
                     <AnimatedLetters
-                        strArray={['M', 'e', ' ', 'm', 'y', 's', 'e', 'l', 'f', ' ', '&', ' ', 'I']}
+                        strArray={['M', 'e', ',', ' ', 'm', 'y', 's', 'e', 'l', 'f', ' ', '&', ' ', 'I']}
                         index={15}
                     />
                 </h1>
