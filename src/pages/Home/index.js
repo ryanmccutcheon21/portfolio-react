@@ -23,7 +23,7 @@ const Home = () => {
 
     return (
         <div className="container home-page">
-            <div className="text-zone flex flex-col">
+            <div className="text-zone">
                 <h1 className='md:text-[5rem]'>
                     <span className={`${letterClass}_11 text-animate-hover`}>H</span>
                     <span className={`${letterClass}_12 text-animate-hover`}>i</span>

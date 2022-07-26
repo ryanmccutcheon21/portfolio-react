@@ -1,28 +1,30 @@
 .home-page {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+
     .text-zone {
-        position: absolute;
-        left: 25%;
-        top: 50%;
-        transform: translateY(-50%);
-        width: 60%;
-        max-height: 90%;
+        color: white;
+        font-family: "Coolvetica";
 
         h1 {
             color: #fff;
             font-size: 3rem;
-            line-height: 5rem;
-            margin: 0;
             font-family: 'Coolvetica';
             font-weight: 400;
+
 
             &:before {
                 content: '<h1>';
                 font-family: 'La Belle Aurore', cursive;
                 color: #ffd700;
-                font-size: 18px;
+                font-size: 2rem;
                 position: absolute;
-                margin-top: -40px;
-                left: -15px;
+                // margin-top: 10px;
+                // margin-left: 10px;
+                left: 1rem;
+                top: 15rem;
+                animation: fadeIn 1s 1.7s backwards;
                 opacity: 0.6;
             }
 
@@ -38,28 +40,18 @@
                 opacity: 0.6;
             }
 
-            img {
-                margin-left: 20px;
-                opacity: 0;
-                width: 32px;
-                height: auto;
-                animation: rotateIn 1s linear both;
-                animation-delay: 1.4s;
-            }
-
             .letter-logo-r {
                 text-shadow: #ffd700 -4px 2px;
                 color: #9d0208;
-                padding-left: 1rem;
+                padding-left: 2rem;
             }
         }
 
         h2 {
             color: #8d8d8d;
-            color: white;
-            // margin-top: 25px;
+            text-align: center;
             font-weight: 400;
-            font-size: 11px;
+            font-size: 2rem;
             font-family: sans-serif;
             letter-spacing: 3px;
             animation: fadeIn 1s 1.8s backwards;
@@ -69,9 +61,8 @@
                 font-family: 'La Belle Aurore', cursive;
                 color: #ffd700;
                 font-size: 18px;
-                position: absolute;
-                margin-top: -25px;
-                left: -15px;
+                position: relative;
+                padding-right: 2rem;
                 opacity: 0.6;
             }
 
@@ -98,11 +89,10 @@
             padding: 1rem 5rem;
             border: 1px solid #ffd700;
             margin-top: 5rem;
-            // float: left;
             animation: fadeInAnimation 1s 1.8s backwards;
             white-space: nowrap;
             display: flex;
-            justify-content: center;
+            // align-items: center;
 
             &:hover {
                 background: #ffd700;
@@ -114,23 +104,20 @@
             h1 {
                 font-size: 5rem;
             }
+
+            .flat-button {
+                width: 20%;
+            }
         }
 
         @media only screen and (min-width: 993px) {
             h1 {
                 font-size: 8rem;
                 line-height: 8rem;
-                margin-left: -8rem;
-                margin-top: 8rem;
             }
 
             h2 {
-                margin-left: -8rem;
                 margin-top: 2rem;
-            }
-
-            .flat-button {
-                margin-left: -8rem;
             }
         }
     }

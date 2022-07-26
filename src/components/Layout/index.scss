@@ -28,7 +28,7 @@
     will-change: contents;
     height: 90%;
     min-height: 566px;
-    position: absolute;
+    position: relative;
     opacity: 0;
     top: 5%;
     margin: 0 auto;
@@ -37,50 +37,3 @@
     animation: fadeIn 1s forwards;
     animation-delay: 1s;
 }
-
-// .about-page {
-//     .text-zone {
-//         position: absolute;
-//         left: 10%;
-//         top: 50%;
-//         transform: translateY(-50%);
-//         width: 35%;
-//         vertical-align: middle;
-//         display: table-cell;
-//         max-height: 90%;
-
-//         h1 {
-//             font-size: 53px;
-//             font-family: 'Coolvetica';
-//             color: #ffd700;
-//             font-weight: 400;
-//             margin-top: 40px;
-//             position: relative;
-//             margin-bottom: 40px;
-//             left: 10px;
-
-//             &::before {
-//                 content: '<h1>';
-//                 font-family: 'La Belle Aurore';
-//                 font-size: 18px;
-//                 position: absolute;
-//                 margin-top: -10px;
-//                 left: -10px;
-//                 opacity: 0.6;
-//                 line-height: 18px;
-//             }
-
-//             &::after {
-//                 content: '</h1>';
-//                 font-family: 'La Belle Aurore';
-//                 font-size: 18px;
-//                 line-height: 18px;
-//                 position: absolute;
-//                 left: -30px;
-//                 bottom: -20px;
-//                 margin-left: 20px;
-//                 opacity: 0.6;
-//             }
-//         }
-//     }
-// }
