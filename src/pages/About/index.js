@@ -19,9 +19,9 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 const About = () => {
     const [letterClass, setLetterClass] = useState('text-animate')
 
-    const myTags = [
-        'JavaScript', 'CSS', 'HTML', 'React', 'Node.js', 'git', 'jQuery', 'Vue', 'MongoDB'
-    ]
+    // const myTags = [
+    //     'JavaScript', 'CSS', 'HTML', 'React', 'Node.js', 'git', 'jQuery', 'Vue', 'MongoDB'
+    // ]
     // let tagCloud =
     //     TagCloud('.content', myTags, {
     //         radius: 300,

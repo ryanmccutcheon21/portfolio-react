@@ -25,8 +25,8 @@ const Home = () => {
 
     return (
         <div className="container home-page">
-            <div className="text-zone">
-                <h1>
+            <div className="text-zone flex flex-col">
+                <h1 className='md:text-[5rem]'>
                     <span className={`${letterClass}_11 text-animate-hover`}>H</span>
                     <span className={`${letterClass}_12 text-animate-hover`}>i</span>
                     <span className={`${letterClass}_12 text-animate-hover`}>,</span>
@@ -47,10 +47,9 @@ const Home = () => {
                         index={22}
                     />
                 </h1>
-                <h2>MongoDB | Express | React | Node</h2>
+                <h2 className='pt-[2rem]'>MongoDB | Express | React | Node</h2>
                 <Link to='/contact' className='flat-button'>CONTACT ME</Link>
             </div>
-            {/* <Logo /> */}
         </div>
     )
 }
