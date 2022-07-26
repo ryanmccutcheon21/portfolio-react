@@ -1,10 +1,8 @@
 import './index.scss'
-import LogoS from '../../assets/images/logo-s.png'
 import { Link, NavLink } from 'react-router-dom'
-import LogoSubtitle from '../../assets/images/logo_sub.png'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faBriefcase, faEnvelope, faHome, faTools, faUser } from '@fortawesome/free-solid-svg-icons'
-import { faGithub, faLinkedin, faSkype, faYoutube } from '@fortawesome/free-brands-svg-icons'
+import { faGithub, faLinkedin, faYoutube } from '@fortawesome/free-brands-svg-icons'
 
 const Sidebar = () => (
     <div className='nav-bar'>
