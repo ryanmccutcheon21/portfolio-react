@@ -5,15 +5,25 @@
 
 .text-zone .skills-text {
     font-family: 'Coolvetica';
-    font-size: 6rem;
+    font-size: 3rem;
     padding-bottom: 4rem;
+
+    &::before {
+        content: '<h1>';
+        position: absolute;
+        color: #ffd700;
+        opacity: 0.6;
+        font-family: 'La Belle Aurore';
+        top: 5rem;
+    }
 
     &::after {
         content: '</h1>';
         position: absolute;
         color: #ffd700;
         opacity: 0.6;
-        top: 5rem;
+        top: 3rem;
+        right: 3rem;
         font-family: 'La Belle Aurore';
     }
 }
@@ -23,7 +33,7 @@
     font-family: 'Coolvetica';
     font-size: 1.7rem;
     position: relative;
-    padding: 0 2rem 4rem 0;
+    padding: 2rem 2rem 4rem 0;
 
     &::before {
         content: '<p>';
@@ -31,8 +41,8 @@
         color: #ffd700;
         opacity: 0.6;
         font-family: 'La Belle Aurore';
-        top: -3rem;
-        left: -2rem;
+        top: -1rem;
+        left: -1rem;
     }
 
     &::after {
