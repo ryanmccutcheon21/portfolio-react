@@ -1,30 +1,64 @@
-// div {
-//     display: flex;
-
-//     h1 {
-//         justify-content: center;
-//         align-items: flex-start;
-//         color: #ffd700;
-//         font-size: 6rem;
-//         font-family: "Coolvetica";
-//     }
-// }
-
-// p {
-//     color: white;
-//     text-align: justify;
-//     width: 95%;
-//     font-size: 1.7rem;
-//     font-family: 'Coolvetica';
-// }
-
-
-
 .container .skills-page {
     display: flex;
     flex-direction: column;
+}
 
-    .text-zone {
-        display: flex;
+.text-zone .skills-text {
+    font-family: 'Coolvetica';
+    font-size: 6rem;
+    padding-bottom: 4rem;
+
+    &::after {
+        content: '</h1>';
+        position: absolute;
+        color: #ffd700;
+        opacity: 0.6;
+        top: 5rem;
+        font-family: 'La Belle Aurore';
     }
+}
+
+.text-zone p {
+    color: white;
+    font-family: 'Coolvetica';
+    font-size: 1.7rem;
+    position: relative;
+    padding: 0 2rem 4rem 0;
+
+    &::before {
+        content: '<p>';
+        position: absolute;
+        color: #ffd700;
+        opacity: 0.6;
+        font-family: 'La Belle Aurore';
+        top: -3rem;
+        left: -2rem;
+    }
+
+    &::after {
+        content: '</p>';
+        position: absolute;
+        color: #ffd700;
+        opacity: 0.6;
+        font-family: 'La Belle Aurore';
+        right: 3rem;
+    }
+}
+
+.technology-container {
+    color: white;
+    display: flex;
+    align-items: center;
+    padding-left: 5rem;
+    padding-bottom: 4rem;
+}
+
+.work-row {
+    width: 80%;
+}
+
+.work-box {
+    box-shadow: 5px 5px 5px gray;
+    margin: 2rem 0;
+    padding: 2rem 1rem;
 }

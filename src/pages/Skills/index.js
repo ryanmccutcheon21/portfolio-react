@@ -18,7 +18,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 const Skills = () => {
     return (
-        <div className='container skills-page'>
+        <div className='container skills-page overflow-scroll'>
             <div className='text-zone'>
                 <h1 className='skills-text'>
                     <AnimatedLetters
@@ -45,7 +45,7 @@ const Skills = () => {
 
             {/* Technologies */}
 
-            <div className='flex flex-col pt-10'>
+            <div className='technology-container flex flex-col pt-10'>
                 <p className='border-b-2 border-blue-400 pb-2 text-[2rem]'>React</p>
                 <p className='border-b-2 text-[2rem] border-green-600 pb-2 pt-3'>Node</p>
                 <p className='border-b-2 text-[2rem] border-green-600 pb-2 pt-2'>MongoDB</p>
@@ -58,7 +58,7 @@ const Skills = () => {
 
                 {/* Work Experience */}
 
-                <div className='work-row flex flex-col w-[95%] md:mt-[2rem] xl:mt-[3rem] xl:w-[100%] flex justify-between'>
+                <div className='work-row flex-col w-[95%] md:mt-[2rem] xl:mt-[3rem] xl:w-[100%] flex justify-between'>
                     <div className='work-box bg-[#2a2a2a] flex flex-col'>
                         <header className='text-white bg-[#2a2a2a] text-[3rem] font-[Coolvetica]'>Frontend developer</header>
                         <section className='text-gray-400 text-[2rem] font-[Coolvetica]'>To The End</section>
