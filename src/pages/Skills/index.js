@@ -27,13 +27,10 @@ const Skills = () => {
                     />
                 </h1>
                 <p>
-                    Since beginning my journei as a freelance developer nearly 2 years ago, I've done remote work for agencies, consulted for startups, and collaborated with talented people to create web products for both business and consumer use.
+                    Since beginning my journey as a developer nearly 2 years ago, I've completed multiple certifications in web development. I have also taken formal, graduate-level, courses towards a Masters degree in Computer and Information Science.
                     <br />
                     <br />
-                    I create successful responsive websites that are fast, easy to use, and built with best practices. The main area of my expertise is front-end developments. HTML, CSS, JS, building small and medium web apps, custom plugins, features, animations, and coding interactive layouts.
-                    <br />
-                    <br />
-                    I also have full-stack developer experience with popular open-source CMS like (WordPress, Drupal, Magento, Keystone.js and others).
+                    I am capable of creating successful, responsive websites that are fast, easy to use, and built with best practices. The main area of my expertise is front-end development using React, and of course HTML, CSS, and JavaScript.
                     <br />
                     <br />
                     Visit my <a href='https://www.linkedin.com/in/ryan-mccutcheon-185b261b8/' target='_blank' className='text-[#ffd700]'>LinkedIn</a> profile for more details or just <Link className='text-[#ffd700]' to='/contact'>contact</Link> me.
@@ -48,11 +45,15 @@ const Skills = () => {
             <div className='technology-container flex flex-col pt-10'>
                 <p className='border-b-2 border-blue-400 pb-2 text-[2rem]'>React</p>
                 <p className='border-b-2 text-[2rem] border-green-600 pb-2 pt-3'>Node</p>
+                <p className='border-b-2 text-[2rem] border-yellow-400 pb-2 pt-2'>JavaScript</p>
+                <p className='border-b-2 text-[2rem] border-blue-500 pb-2 pt-2'>CSS</p>
+                <p className='border-b-2 text-[2rem] border-red-800 pb-2 pt-2'>SCSS</p>
                 <p className='border-b-2 text-[2rem] border-green-600 pb-2 pt-2'>MongoDB</p>
                 <p className='border-b-2 text-[2rem] border-white pb-2 pt-2'>Express</p>
                 <p className='border-b-2 text-[2rem] pb-2 pt-2 border-green-600'>Vue</p>
                 <p className='border-b-2 text-[2rem] border-purple-500 pb-2 pt-2'>Bootstrap</p>
                 <p className='border-b-2 text-[2rem] border-blue-400 pb-2 pt-2'>TailwindCSS</p>
+                <p className='border-b-2 text-[2rem] border-red-800 pb-2 pt-2'>Java</p>
 
 
 
@@ -60,20 +61,25 @@ const Skills = () => {
 
                 <div className='work-row flex-col w-[95%] md:mt-[2rem] xl:mt-[3rem] xl:w-[100%] flex justify-between'>
                     <div className='work-box bg-[#2a2a2a] flex flex-col'>
-                        <header className='text-white bg-[#2a2a2a] text-[3rem] font-[Coolvetica]'>Frontend developer</header>
-                        <section className='text-gray-400 text-[2rem] font-[Coolvetica]'>To The End</section>
-                        <time className='text-gray-400 font-[Coolvetica] text-[1.7rem]'>Jan. 2019-May 2021</time>
-                        <footer className='text-gray-400 font-[Coolvetica] text-[1.7rem]'>Award-winning Content Marketing Agency specialises in creating and sharing engaging content.</footer>
+                        <header className='text-white bg-[#2a2a2a] text-[3rem] font-[Coolvetica]'>Master of Science, MS - Computer and Information Systems</header>
+                        <section className='text-gray-400 text-[2rem] font-[Coolvetica]'>Southern Arkansas University</section>
+                        <time className='text-gray-400 font-[Coolvetica] text-[1.7rem]'>Aug 2022 - current</time>
+                        <footer className='text-gray-400 font-[Coolvetica] text-[1.7rem] pt-5'>Advanced Programming Concepts MCIS5103
+                            <br />
+                            This course teaches object-oriented programming and development using the Java programming language. Object-oriented concepts, including class hierarchies, inheritance, and polymorphism, are reinforced through the development of stand-alone applications. Students strengthen their understanding of event-driven programming and graphical user interfaces by designing and programming Web applets. Fall semester.
+                            <br />
+                            <br />
+                            Computer Science Fundamentals MCIS5023</footer>
                     </div>
                     <div className='work-box bg-[#2a2a2a] flex flex-col mt-5 mb-[7rem]'>
-                        <header className='text-white bg-[#2a2a2a] text-[3rem] font-[Coolvetica]'>Fullstack developer</header>
-                        <section className='text-gray-400 text-[2rem] font-[Coolvetica]'>Pixxels Digital</section>
-                        <time className='text-gray-400 font-[Coolvetica] text-[1.7rem]'>Jan. 2019-May 2021</time>
-                        <footer className='text-gray-400 font-[Coolvetica] text-[1.7rem]'>Creative brand, website design and development studio that can bring your online business dreams to life.</footer>
+                        <header className='text-white bg-[#2a2a2a] text-[3rem] font-[Coolvetica]'>Bachelor of Science, BS - Criminal Justice</header>
+                        <section className='text-gray-400 text-[2rem] font-[Coolvetica]'>University of Arkansas - Fort Smith</section>
+                        <time className='text-gray-400 font-[Coolvetica] text-[1.7rem]'>Aug 2016 - May 2019</time>
+                        {/* <footer className='text-gray-400 font-[Coolvetica] text-[1.7rem]'></footer> */}
                     </div>
                 </div>
             </div>
-        </div>
+        </div >
     )
 }
 

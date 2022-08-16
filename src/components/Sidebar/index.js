@@ -43,11 +43,11 @@ const Sidebar = () => (
                 </a>
             </li>
 
-            <li>
+            {/* <li>
                 <a target='_blank' rel='noreferrer' href='https://www.linkedin.com/in/ryan-mccutcheon-185b261b8/'>
                     <FontAwesomeIcon icon={faYoutube} color='#4d4d4e' />
                 </a>
-            </li>
+            </li> */}
         </ul>
     </div>
 )

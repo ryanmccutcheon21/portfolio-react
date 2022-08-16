@@ -48,11 +48,10 @@ const About = () => {
                             index={15}
                         />
                     </h1>
-                    <p className='about-p'>I'm a very ambitious front-end developer looking for a role in an established IT company with the opportunity to work with the latest technologies on challenging and diverse projects.
+                    <p className='about-p'>I am a very ambitious Software Engineering student currently pursuing my Master of Science, MS - Computer and Information Systems at Southern Arkansas University.
                         <br />
                         <br />
-                        {/* <p className='about-p'>I'm a confident, outside the box thinker. Sports fan, mostly baseball and football. A family man and father to an awesome little boy.</p> */}
-                        Interested in the entire front-end spectrum and working on ambitious projects with positive people.</p>
+                        I am really passionate about web development. Therefore, I am looking for entry-level roles, or internships, at an established IT company having the opportunity to work with the latest technologies on challenging and diverse projects.</p>
                     <Link to='/contact' className='last-about-p'>Let's make something special.</Link>
                 </div>
                 <div className="stage-cube-cont">

@@ -23,7 +23,7 @@
         position: absolute;
         color: #ffd700;
         opacity: 0.6;
-        top: 3rem;
+        top: 7rem;
         font-family: 'La Belle Aurore';
     }
 }
@@ -41,6 +41,7 @@
         color: #ffd700;
         opacity: 0.6;
         font-family: 'La Belle Aurore';
+        top: -1rem;
     }
 
     &::after {
@@ -49,7 +50,7 @@
         color: #ffd700;
         opacity: 0.6;
         font-family: 'La Belle Aurore';
-        // right: 3rem;
+        bottom: 2rem;
     }
 }
 
