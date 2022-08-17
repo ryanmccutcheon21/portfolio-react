@@ -61,7 +61,7 @@ const Skills = () => {
 
                 <div className='work-row flex-col w-[95%] md:mt-[2rem] xl:mt-[3rem] xl:w-[100%] flex justify-between'>
                     <div className='work-box bg-[#2a2a2a] flex flex-col'>
-                        <header className='text-white bg-[#2a2a2a] text-[3rem] font-[Coolvetica]'>Master of Science, MS - Computer and Information Sciences</header>
+                        <header className='text-white bg-[#2a2a2a] text-[3rem] font-[Coolvetica]'>Master of Science, MS - Computer and Information Science</header>
                         <section className='text-gray-400 text-[2rem] font-[Coolvetica]'>Southern Arkansas University</section>
                         <time className='text-gray-400 font-[Coolvetica] text-[1.7rem]'>Aug 2022 - current</time>
                         <footer className='text-gray-400 font-[Coolvetica] text-[1.7rem] pt-5'>Advanced Programming Concepts MCIS5103
