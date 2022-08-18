@@ -1,5 +1,7 @@
 import React from 'react'
 import AnimatedLetters from '../../components/AnimatedLetters'
+import { ContactUs } from '../../components/Email/Email'
+
 
 const Contact = () => {
     return (
@@ -14,12 +16,12 @@ const Contact = () => {
 
             {/* FORM */}
 
-            <div className='flex mt-[5rem] justify-center ml-[8rem] pr-5'>
+            {/* <div className='flex mt-[5rem] justify-center ml-[8rem] pr-5'>
                 <form class="w-full max-w-lg">
                     <div class="flex flex-wrap -mx-3 mb-6">
                         <div class="w-full md:w-1/2 px-3 mb-6 md:mb-0">
                             <input class="appearance-none block w-full bg-transparent text-white border border-red-500 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-red-500 focus:text-white focus:font-bold" id="grid-first-name" type="text" placeholder="First Name" />
-                            {/* <p class="text-red-500 text-xs italic">Please fill out this field.</p> */}
+                             <p class="text-red-500 text-xs italic">Please fill out this field.</p> 
                         </div>
                         <div class="w-full md:w-1/2 px-3">
                             <input class="appearance-none block w-full bg-transparent text-white border border-red-500 rounded py-3 px-4 leading-tight  focus:border-gray-500 focus:bg-red-500 focus:text-white focus:font-bold focus:outline-none" id="grid-last-name" type="text" placeholder="Last Name" />
@@ -39,7 +41,11 @@ const Contact = () => {
                         <button className='px-[2rem] py-[1rem]  border border-red-500 rounded font-[Coolvetica] font-bold text-red-500 hover:bg-red-500 hover:text-black' type='submit'>Send</button>
                     </div>
                 </form>
-            </div>
+            </div> */}
+
+            <ContactUs />
+
+
         </main>
 
         // {/* Map div */ }
