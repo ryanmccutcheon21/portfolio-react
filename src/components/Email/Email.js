@@ -10,7 +10,7 @@ export const ContactUs = () => {
     const sendEmail = (e) => {
         e.preventDefault();
 
-        emailjs.sendForm('EMAILJS_SERVICE_ID', 'EMAILJS_TEMPLATE_ID', form.current, 'EMAILJS_PUBLIC_KEY')
+        emailjs.sendForm('service_lmd7zdp', 'template_tgdt35o', form.current, 'user_9hz0OeDfaAL1qLpg4a9xW')
             .then((result) => {
                 console.log(result.text);
             }, (error) => {
@@ -29,7 +29,7 @@ export const ContactUs = () => {
                 <input className='border border-red-500 bg-transparent' />
                 <label>Message</label>
                 <textarea name="message" className='border border-red-500 bg-transparent' />
-                <button type="submit" className='border border-red-500 mt-10 hover:bg-red-500'>Send</button>
+                <input type="submit" value='Send' className='border border-red-500 mt-10 hover:bg-red-500' />
             </form>
         </div>
     );
