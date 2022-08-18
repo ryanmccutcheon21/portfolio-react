@@ -5,7 +5,7 @@ import { ContactUs } from '../../components/Email/Email'
 
 const Contact = () => {
     return (
-        <main className='flex flex-col justify-center'>
+        <main className='container overflow-scroll flex flex-col justify-center'>
             <h1 className='pl-[8rem] pt-[5rem] text-[4rem] text-[#ffd700] font-[Coolvetica]'>
                 <AnimatedLetters strArray={['C', 'o', 'n', 't', 'a', 'c', 't', ' ', 'm', 'e']} index={15} />
             </h1>

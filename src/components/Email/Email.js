@@ -10,7 +10,7 @@ export const ContactUs = () => {
     const sendEmail = (e) => {
         // e.preventDefault();
 
-        emailjs.sendForm('service_lmd7zdp', 'template_tgdt35o', e.target, 'user_9hz0OeDfaAL1qLpg4a9xW')
+        emailjs.sendForm('service_e1rm8cc', 'template_tgdt35o', e.target, 'user_9hz0OeDfaAL1qLpg4a9xW')
             .then((result) => {
                 console.log(result.text);
             }, (error) => {
