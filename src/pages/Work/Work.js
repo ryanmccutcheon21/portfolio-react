@@ -2,10 +2,11 @@ import React from 'react'
 import AnimatedLetters from '../../components/AnimatedLetters'
 import { Link } from 'react-router-dom'
 import '../../assets/images/TechFreak.png'
-
-
-import { useEffect, useState } from 'react'
+import { useEffect, useState } from 'react';
 import Loader from 'react-loaders'
+import TechFreak from '../../assets/images/TechFreak.png'
+import LandingPage from '../../assets/images/LandingPage.png'
+
 
 const Work = () => {
     const [letterClass, setLetterClass] = useState('text-animate')
@@ -32,14 +33,14 @@ const Work = () => {
                         </h2>
                         <main>
                             <a href='https://techfreak-aa802.web.app/' target='_blank' className='hover:opacity-75'>
-                                <img src='../../assets/images/TechFreak.png' />
+                                <img src={TechFreak} />
                             </a>
                         </main>
                         <footer className='text-white mt-5 flex justify-center'>eCommerce store made using React, Redux, and commerce.js. Payments with Stripe API.</footer>
                     </section>
 
                     {/* BucketList */}
-                    <section className='mt-5 pl-28 pr-5'>
+                    {/* <section className='mt-5 pl-28 pr-5'>
                         <h2 className='text-[#ffd700] font-[Coolvetica] text-[2rem] mb-5 flex justify-center'>
                             BucketList
                         </h2>
@@ -57,7 +58,7 @@ const Work = () => {
                             - Node.js
                             - MongoDB
                             - Passport.js</footer>
-                    </section>
+                    </section> */}
 
 
 
@@ -68,11 +69,11 @@ const Work = () => {
                             Landing Page
                         </h2>
                         <main>
-                            <a href='https://techfreak-aa802.web.app/' target='_blank' className='hover:opacity-75'>
-                                <img src='https://assets.nflxext.com/ffe/siteui/vlv3/a1543997-c1fd-4946-92d3-b0a3648b92c7/b2d2e100-4fde-4432-872b-03c86a7d9613/US-en-20220808-popsignuptwoweeks-perspective_alpha_website_large.jpg' />
+                            <a href='https://landing-page-pearl-tau.vercel.app/' target='_blank' className='hover:opacity-75'>
+                                <img src={LandingPage} />
                             </a>
                         </main>
-                        <footer className='text-white mt-5 flex justify-center'>Technologies: HTML, CSS</footer>
+                        <footer className='text-white mt-5 flex justify-center'>HTML, CSS, Bootstrap</footer>
                     </section>
 
 
@@ -83,11 +84,12 @@ const Work = () => {
                             AirBnB Clone
                         </h2>
                         <main>
-                            <a href='https://techfreak-aa802.web.app/' target='_blank' className='hover:opacity-75'>
-                                <img src='https://assets.nflxext.com/ffe/siteui/vlv3/a1543997-c1fd-4946-92d3-b0a3648b92c7/b2d2e100-4fde-4432-872b-03c86a7d9613/US-en-20220808-popsignuptwoweeks-perspective_alpha_website_large.jpg' />
+                            <a href='https://techfreak-aa802.web.app/' target='_blank' className='hover:opacity-75 text-[#ffd700] font-[Coolvetica]'>
+                                {/* <img src='' alt='Project image' /> */}
+                                Coming Soon!
                             </a>
                         </main>
-                        <footer className='text-white mt-5 flex justify-center'>Technologies: React, React Router, TailwindCSS</footer>
+                        <footer className='text-white mt-5 flex justify-center'>React, React Router, TailwindCSS</footer>
                     </section>
                 </div>
             </div>
