@@ -6,6 +6,7 @@ import { useEffect, useState } from 'react';
 import Loader from 'react-loaders'
 import TechFreak from '../../assets/images/TechFreak.png'
 import LandingPage from '../../assets/images/LandingPage.png'
+import SpotifyClone from '../../assets/images/SpotifyClone.png'
 
 
 const Work = () => {
@@ -78,18 +79,17 @@ const Work = () => {
 
 
 
-                    {/* AirBnB Clone */}
+                    {/* Spotify Clone */}
                     <section className='mt-5 pl-28 pr-5'>
                         <h2 className='text-[#ffd700] font-[Coolvetica] text-[2rem] mb-5 flex justify-center'>
-                            AirBnB Clone
+                            Spotify Clone
                         </h2>
                         <main>
-                            <a href='https://techfreak-aa802.web.app/' target='_blank' className='hover:opacity-75 text-[#ffd700] font-[Coolvetica]'>
-                                {/* <img src='' alt='Project image' /> */}
-                                Coming Soon!
+                            <a href='https://spotify-clone-blockchain-phi.vercel.app/' target='_blank' className='hover:opacity-75 text-[#ffd700] font-[Coolvetica]'>
+                                <img src={SpotifyClone} alt='Project image' />
                             </a>
                         </main>
-                        <footer className='text-white mt-5 flex justify-center'>React, React Router, TailwindCSS</footer>
+                        <footer className='text-white mt-5 flex justify-center'>Web3 dApp with React, Next.js, TailwindCSS, Solana, Phantom, QuickNode</footer>
                     </section>
                 </div>
             </div>
