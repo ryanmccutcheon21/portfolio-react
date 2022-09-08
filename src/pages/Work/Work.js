@@ -7,7 +7,7 @@ import Loader from 'react-loaders'
 import TechFreak from '../../assets/images/TechFreak.png'
 import LandingPage from '../../assets/images/LandingPage.png'
 import SpotifyClone from '../../assets/images/SpotifyClone.png'
-
+import UA from '../../assets/images/UA.png'
 
 const Work = () => {
     const [letterClass, setLetterClass] = useState('text-animate')
@@ -40,29 +40,6 @@ const Work = () => {
                         <footer className='text-white mt-5 flex justify-center'>eCommerce store made using React, Redux, and commerce.js. Payments with Stripe API.</footer>
                     </section>
 
-                    {/* BucketList */}
-                    {/* <section className='mt-5 pl-28 pr-5'>
-                        <h2 className='text-[#ffd700] font-[Coolvetica] text-[2rem] mb-5 flex justify-center'>
-                            BucketList
-                        </h2>
-                        <main>
-                            <a href='https://bucketlist-adventures.herokuapp.com/' target='_blank' className='hover:opacity-75'>
-                                <img src='https://assets.nflxext.com/ffe/siteui/vlv3/a1543997-c1fd-4946-92d3-b0a3648b92c7/b2d2e100-4fde-4432-872b-03c86a7d9613/US-en-20220808-popsignuptwoweeks-perspective_alpha_website_large.jpg' />
-                            </a>
-                        </main>
-                        <footer className='text-white mt-5 flex justify-center'>Yelp inspired website for people to add adventures and share ideas for things to add to their bucket list. Technology used:
-                            - HTML
-                            - CSS
-                            - JavaScript
-                            - Bootstrap
-                            - EJS Templating
-                            - Node.js
-                            - MongoDB
-                            - Passport.js</footer>
-                    </section> */}
-
-
-
                     {/* Landing Page */}
 
                     <section className='mt-5 pl-28 pr-5'>
@@ -83,13 +60,26 @@ const Work = () => {
                     <section className='mt-5 pl-28 pr-5'>
                         <h2 className='text-[#ffd700] font-[Coolvetica] text-[2rem] mb-5 flex justify-center'>
                             Spotify Clone
-                        </h2>
+                        </h2>˜
                         <main>
                             <a href='https://spotify-clone-blockchain-phi.vercel.app/' target='_blank' className='hover:opacity-75 text-[#ffd700] font-[Coolvetica]'>
                                 <img src={SpotifyClone} alt='Project image' />
                             </a>
                         </main>
                         <footer className='text-white mt-5 flex justify-center'>Web3 dApp with React, Next.js, TailwindCSS, Solana, Phantom, QuickNode</footer>
+                    </section>
+
+                    {/* Under Armour Clone */}
+                    <section className='mt-5 pl-28 pr-5'>
+                        <h2 className='text-[#ffd700] font-[Coolvetica] text-[2rem] mb-5 flex justify-center'>
+                            Under Armour Clone
+                        </h2>
+                        <main>
+                            <a href='https://under-armour-clone.vercel.app/' target='_blank' className='hover:opacity-75 text-[#ffd700] font-[Coolvetica]'>
+                                <img src={UA} alt='Project image' />
+                            </a>
+                        </main>
+                        <footer className='text-white mt-5 flex justify-center'>React, TailwindCSS</footer>
                     </section>
                 </div>
             </div>
