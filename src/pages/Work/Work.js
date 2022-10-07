@@ -8,6 +8,7 @@ import TechFreak from '../../assets/images/TechFreak.png'
 import LandingPage from '../../assets/images/LandingPage.png'
 import FitnessApp from '../../assets/images/FitnessApp.png'
 import UA from '../../assets/images/UA.png'
+import Hoobank from '../../assets/images/Hoobank.png'
 
 const Work = () => {
     const [letterClass, setLetterClass] = useState('text-animate')
@@ -77,6 +78,19 @@ const Work = () => {
                         <main>
                             <a href='https://under-armour-clone.vercel.app/' target='_blank' className='hover:opacity-75 text-[#ffd700] font-[Coolvetica]'>
                                 <img src={UA} alt='Project image' />
+                            </a>
+                        </main>
+                        <footer className='text-white mt-5 flex justify-center'>React, TailwindCSS</footer>
+                    </section>
+
+                    {/* Hoobank */}
+                    <section className='mt-5 pl-28 pr-5'>
+                        <h2 className='text-[#ffd700] font-[Coolvetica] text-[2rem] mb-5 flex justify-center'>
+                            Hoobank
+                        </h2>
+                        <main>
+                            <a href='https://hoobank-ashen.vercel.app/' target='_blank' className='hover:opacity-75 text-[#ffd700] font-[Coolvetica]'>
+                                <img src={Hoobank} alt='Project image' />
                             </a>
                         </main>
                         <footer className='text-white mt-5 flex justify-center'>React, TailwindCSS</footer>
