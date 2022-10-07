@@ -9,6 +9,7 @@ import LandingPage from '../../assets/images/LandingPage.png'
 import FitnessApp from '../../assets/images/FitnessApp.png'
 import UA from '../../assets/images/UA.png'
 import Hoobank from '../../assets/images/Hoobank.png'
+import RealEstate from '../../assets/images/RealEstate.png'
 
 const Work = () => {
     const [letterClass, setLetterClass] = useState('text-animate')
@@ -94,6 +95,20 @@ const Work = () => {
                             </a>
                         </main>
                         <footer className='text-white mt-5 flex justify-center'>React, TailwindCSS</footer>
+                    </section>
+
+
+                    {/* Real Estate */}
+                    <section className='mt-5 pl-28 pr-5'>
+                        <h2 className='text-[#ffd700] font-[Coolvetica] text-[2rem] mb-5 flex justify-center'>
+                            Real Estate App
+                        </h2>
+                        <main>
+                            <a href='https://realestate-tau-lac.vercel.app/' target='_blank' className='hover:opacity-75 text-[#ffd700] font-[Coolvetica]'>
+                                <img src={RealEstate} alt='Project image' />
+                            </a>
+                        </main>
+                        <footer className='text-white mt-5 flex justify-center'>React, TailwindCSS, Next.js, Axios, Chakra-UI</footer>
                     </section>
                 </div>
             </div>
