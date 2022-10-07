@@ -6,7 +6,7 @@ import { useEffect, useState } from 'react';
 import Loader from 'react-loaders'
 import TechFreak from '../../assets/images/TechFreak.png'
 import LandingPage from '../../assets/images/LandingPage.png'
-import SpotifyClone from '../../assets/images/SpotifyClone.png'
+import FitnessApp from '../../assets/images/FitnessApp.png'
 import UA from '../../assets/images/UA.png'
 
 const Work = () => {
@@ -59,14 +59,14 @@ const Work = () => {
                     {/* Spotify Clone */}
                     <section className='mt-5 pl-28 pr-5'>
                         <h2 className='text-[#ffd700] font-[Coolvetica] text-[2rem] mb-5 flex justify-center'>
-                            Spotify Clone
+                            Fitness App
                         </h2>˜
                         <main>
-                            <a href='https://spotify-clone-blockchain-phi.vercel.app/' target='_blank' className='hover:opacity-75 text-[#ffd700] font-[Coolvetica]'>
-                                <img src={SpotifyClone} alt='Project image' />
+                            <a href='https://fitness-app-iota.vercel.app/' target='_blank' className='hover:opacity-75 text-[#ffd700] font-[Coolvetica]'>
+                                <img src={FitnessApp} alt='Project image' />
                             </a>
                         </main>
-                        <footer className='text-white mt-5 flex justify-center'>Web3 dApp with React, Next.js, TailwindCSS, Solana, Phantom, QuickNode</footer>
+                        <footer className='text-white mt-5 flex justify-center'>React, MaterialUI, RapidAPI</footer>
                     </section>
 
                     {/* Under Armour Clone */}
