@@ -15,8 +15,8 @@ const Work = () => {
     const [letterClass, setLetterClass] = useState('text-animate')
 
     return (
-        <div>
-            <div className='container overflow-scroll h-[100%]'>
+        <div className='container'>
+            <div className='container overflow-scroll'>
                 <div className='text-zone'>
                     <h1>
                         <AnimatedLetters
