@@ -72,20 +72,8 @@ const Work = () => {
 
 
     return (
-        <div className='container'>
-            <div className='container overflow-scroll'>
-                <div className='text-zone'>
-                    <h1>
-                        <AnimatedLetters
-                            strArray={['P', 'r', 'o', 'j', 'e', 'c', 't', 's']}
-                            index={15}
-                        />
-                    </h1>
-                </div>
-                <div className='mt-20 flex flex-col overflow-scroll md:flex-row'>
-                    {projectList}
-                </div>
-            </div>
+        <div className='container overflow-scroll grid md:grid-cols-3'>
+            {projectList}
         </div>
     )
 }
