@@ -1,18 +1,75 @@
 import React from 'react'
 import AnimatedLetters from '../../components/AnimatedLetters'
-import { Link } from 'react-router-dom'
 import '../../assets/images/TechFreak.png'
-import { useEffect, useState } from 'react';
-import Loader from 'react-loaders'
 import TechFreak from '../../assets/images/TechFreak.png'
 import LandingPage from '../../assets/images/LandingPage.png'
 import FitnessApp from '../../assets/images/FitnessApp.png'
 import UA from '../../assets/images/UA.png'
 import Hoobank from '../../assets/images/Hoobank.png'
 import RealEstate from '../../assets/images/RealEstate.png'
+import Projects from './Projects/Projects';
+
+
+const projects = [
+    {
+        name: 'Hoobank',
+        image: Hoobank,
+        description: 'React, TailwindCSS',
+        link: 'https://hoobank-ashen.vercel.app/',
+        id: 'project-1'
+    },
+    {
+        name: 'Fitness App',
+        image: FitnessApp,
+        description: 'React, MaterialUI, RapidAPI',
+        link: 'https://fitness-app-iota.vercel.app/',
+        id: 'project-2'
+    },
+    {
+        name: 'Real Estate App',
+        image: RealEstate,
+        description: 'React, TailwindCSS, Next.js, Axios, Chakra-UI',
+        link: 'https://realestate-tau-lac.vercel.app/',
+        id: 'project-3'
+    },
+    {
+        name: 'Under Armour Clone',
+        image: UA,
+        description: 'React, TailwindCSS',
+        link: 'https://under-armour-clone.vercel.app/',
+        id: 'project-4'
+    },
+    {
+        name: 'TechFreak',
+        image: TechFreak,
+        description: 'eCommerce store made using React, Redux, and commerce.js. Payments with Stripe API.',
+        link: 'https://techfreak-aa802.web.app/',
+        id: 'project-5'
+    },
+    {
+        name: 'Landing Page',
+        image: LandingPage,
+        description: 'HTML, CSS, Bootstrap, JavaScript',
+        link: 'https://landing-page-pearl-tau.vercel.app/',
+        id: 'project-6'
+    }
+]
 
 const Work = () => {
-    const [letterClass, setLetterClass] = useState('text-animate')
+
+    // const [letterClass, setLetterClass] = useState('text-animate')
+
+    const projectList = projects?.map((project) =>
+        <Projects
+            name={project.name}
+            image={project.image}
+            description={project.description}
+            link={project.link}
+            id={project.id}
+            key={project.id}
+        />
+    );
+
 
     return (
         <div className='container'>
@@ -26,93 +83,9 @@ const Work = () => {
                     </h1>
                 </div>
                 <div className='mt-20 flex flex-col overflow-scroll md:flex-row'>
-
-
-                    {/* TechFreak */}
-
-                    <section className='mt-5 pl-28 pr-5'>
-                        <h2 className='text-[#ffd700] font-[Coolvetica] text-[2rem] mb-5 flex justify-center'>
-                            TechFreak
-                        </h2>
-                        <main>
-                            <a href='https://techfreak-aa802.web.app/' target='_blank' className='hover:opacity-75'>
-                                <img src={TechFreak} />
-                            </a>
-                        </main>
-                        <footer className='text-white mt-5 flex justify-center'>eCommerce store made using React, Redux, and commerce.js. Payments with Stripe API.</footer>
-                    </section>
-
-                    {/* Landing Page */}
-
-                    <section className='mt-5 pl-28 pr-5'>
-                        <h2 className='text-[#ffd700] font-[Coolvetica] text-[2rem] mb-5 flex justify-center'>
-                            Landing Page
-                        </h2>
-                        <main>
-                            <a href='https://landing-page-pearl-tau.vercel.app/' target='_blank' className='hover:opacity-75'>
-                                <img src={LandingPage} />
-                            </a>
-                        </main>
-                        <footer className='text-white mt-5 flex justify-center'>HTML, CSS, Bootstrap</footer>
-                    </section>
-
-
-
-                    {/* Spotify Clone */}
-                    <section className='mt-5 pl-28 pr-5'>
-                        <h2 className='text-[#ffd700] font-[Coolvetica] text-[2rem] mb-5 flex justify-center'>
-                            Fitness App
-                        </h2>˜
-                        <main>
-                            <a href='https://fitness-app-iota.vercel.app/' target='_blank' className='hover:opacity-75 text-[#ffd700] font-[Coolvetica]'>
-                                <img src={FitnessApp} alt='Project image' />
-                            </a>
-                        </main>
-                        <footer className='text-white mt-5 flex justify-center'>React, MaterialUI, RapidAPI</footer>
-                    </section>
-
-                    {/* Under Armour Clone */}
-                    <section className='mt-5 pl-28 pr-5'>
-                        <h2 className='text-[#ffd700] font-[Coolvetica] text-[2rem] mb-5 flex justify-center'>
-                            Under Armour Clone
-                        </h2>
-                        <main>
-                            <a href='https://under-armour-clone.vercel.app/' target='_blank' className='hover:opacity-75 text-[#ffd700] font-[Coolvetica]'>
-                                <img src={UA} alt='Project image' />
-                            </a>
-                        </main>
-                        <footer className='text-white mt-5 flex justify-center'>React, TailwindCSS</footer>
-                    </section>
-
-                    {/* Hoobank */}
-                    <section className='mt-5 pl-28 pr-5'>
-                        <h2 className='text-[#ffd700] font-[Coolvetica] text-[2rem] mb-5 flex justify-center'>
-                            Hoobank
-                        </h2>
-                        <main>
-                            <a href='https://hoobank-ashen.vercel.app/' target='_blank' className='hover:opacity-75 text-[#ffd700] font-[Coolvetica]'>
-                                <img src={Hoobank} alt='Project image' />
-                            </a>
-                        </main>
-                        <footer className='text-white mt-5 flex justify-center'>React, TailwindCSS</footer>
-                    </section>
-
-
-                    {/* Real Estate */}
-                    <section className='mt-5 pl-28 pr-5'>
-                        <h2 className='text-[#ffd700] font-[Coolvetica] text-[2rem] mb-5 flex justify-center'>
-                            Real Estate App
-                        </h2>
-                        <main>
-                            <a href='https://realestate-tau-lac.vercel.app/' target='_blank' className='hover:opacity-75 text-[#ffd700] font-[Coolvetica]'>
-                                <img src={RealEstate} alt='Project image' />
-                            </a>
-                        </main>
-                        <footer className='text-white mt-5 flex justify-center'>React, TailwindCSS, Next.js, Axios, Chakra-UI</footer>
-                    </section>
+                    {projectList}
                 </div>
             </div>
-            {/* <Loader type='pacman' /> */}
         </div>
     )
 }
