@@ -2,9 +2,6 @@ import React from 'react'
 import './index.scss'
 import AnimatedLetters from '../../components/AnimatedLetters'
 import { Link } from 'react-router-dom'
-
-
-import { useEffect, useState } from 'react'
 import {
     faBootstrap,
     faCss3,
@@ -17,27 +14,6 @@ import Loader from 'react-loaders'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 const About = () => {
-    const [letterClass, setLetterClass] = useState('text-animate')
-
-    // useEffect(() => {
-    //     return setTimeout(() => {
-    //         setLetterClass('text-animate-hover')
-    //     }, 3000)
-    // }, [])
-
-
-    // const myTags = [
-    //     'JavaScript', 'CSS', 'HTML', 'React', 'Node.js', 'git', 'jQuery', 'Vue', 'MongoDB'
-    // ]
-    // let tagCloud =
-    //     TagCloud('.content', myTags, {
-    //         radius: 300,
-    //         maxSpeed: 'fast',
-    //         initSpeed: 'fast',
-    //         directions: 135,
-    //         keep: true,
-    //     })
-
     return (
         <>
             <div className='container about-page overflow-scroll'>
@@ -48,9 +24,7 @@ const About = () => {
                             index={15}
                         />
                     </h1>
-                    <p className='about-p'>I am a very ambitious Software Engineering student currently pursuing my Master of Science, MS - Computer and Information Science at Southern Arkansas University.
-                        <br />
-                        <br />
+                    <p className='about-p mb-5'>I am a very ambitious Software Engineering student currently pursuing my Master of Science, MS - Computer and Information Science at Southern Arkansas University.
                         I am really passionate about web development. Therefore, I am looking for entry-level roles, or internships, at an established IT company having the opportunity to work with the latest technologies on challenging and diverse projects.</p>
                     <Link to='/contact' className='last-about-p'>Let's make something special.</Link>
                 </div>
@@ -67,7 +41,7 @@ const About = () => {
                         </div>
                         <div className="face4">
                             <FontAwesomeIcon icon={faBootstrap} color="#6f42c1" />
-                            /                        </div>
+                        </div>
                         <div className="face5">
                             <FontAwesomeIcon icon={faVuejs} color="#33a06f" />
                         </div>
@@ -76,7 +50,6 @@ const About = () => {
                         </div>
                     </div>
                 </div>
-                <Loader type="pacman" />
             </div>
             <Loader type='pacman' />
         </>

@@ -17,7 +17,6 @@ const Contact = () => {
         </main>
 
         // {/* Map div */ }
-        // <div></div>
     )
 }
 

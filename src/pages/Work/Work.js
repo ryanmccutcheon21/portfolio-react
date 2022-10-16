@@ -1,5 +1,4 @@
 import React from 'react'
-import AnimatedLetters from '../../components/AnimatedLetters'
 import '../../assets/images/TechFreak.png'
 import TechFreak from '../../assets/images/TechFreak.png'
 import LandingPage from '../../assets/images/LandingPage.png'
@@ -56,8 +55,6 @@ const projects = [
 ]
 
 const Work = () => {
-
-    // const [letterClass, setLetterClass] = useState('text-animate')
 
     const projectList = projects?.map((project) =>
         <Projects

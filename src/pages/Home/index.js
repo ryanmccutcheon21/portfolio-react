@@ -1,25 +1,13 @@
 import { Link } from 'react-router-dom'
 import './index.scss'
 import AnimatedLetters from '../../components/AnimatedLetters'
-import React, { useEffect, useState } from 'react'
+import React, { useState } from 'react'
 
 
 const Home = () => {
     const [letterClass, setLetterClass] = useState('text-animate')
     const nameArray = ['y', 'a', 'n', ',']
     const jobArray = ['w', 'e', 'b', ' ', 'd', 'e', 'v', 'e', 'l', 'o', 'p', 'e', 'r', '.']
-
-
-    // Uncomment useEffect to get text to animate when hovered
-    // breaking website right now when uncommented, need to fix bug
-
-
-    // useEffect(() => {
-    //     return setTimeout(() => {
-    //         setLetterClass('text-animate-hover')
-    //     }, 4000)
-    // }, [])
-
 
     return (
         <div className="container home-page">
