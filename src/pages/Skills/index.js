@@ -33,7 +33,6 @@ const Skills = () => {
 
             <div className='technology-container flex flex-col pt-10'>
                 {techList}
-
                 <Education />
             </div>
         </div >

@@ -10,7 +10,7 @@ const Home = () => {
     const jobArray = ['w', 'e', 'b', ' ', 'd', 'e', 'v', 'e', 'l', 'o', 'p', 'e', 'r', '.']
 
     return (
-        <div className="container home-page">
+        <div className="container home-page overflow-scroll">
             <div className="text-zone">
                 <h1 className='md:text-[5rem]'>
                     <span className={`${letterClass}_11 text-animate-hover`}>H</span>
