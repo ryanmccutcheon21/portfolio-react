@@ -57,6 +57,7 @@ const projects = [
         name: 'eCommerce Store',
         image: eCommerce,
         description: 'React, Next.js, React Context API, Sanity.io, Stripe API',
+        link: 'https://ecommerce-zeta-coral.vercel.app/',
         id: 'project-7'
     }
 ]
