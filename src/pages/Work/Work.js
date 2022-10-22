@@ -6,6 +6,7 @@ import FitnessApp from '../../assets/images/FitnessApp.png'
 import UA from '../../assets/images/UA.png'
 import Hoobank from '../../assets/images/Hoobank.png'
 import RealEstate from '../../assets/images/RealEstate.png'
+import eCommerce from '../../assets/images/eCommerce.png'
 import Projects from './Projects/Projects';
 
 
@@ -51,6 +52,12 @@ const projects = [
         description: 'HTML, CSS, Bootstrap, JavaScript',
         link: 'https://landing-page-pearl-tau.vercel.app/',
         id: 'project-6'
+    },
+    {
+        name: 'eCommerce Store',
+        image: eCommerce,
+        description: 'React, Next.js, React Context API, Sanity.io, Stripe API',
+        id: 'project-7'
     }
 ]
 
