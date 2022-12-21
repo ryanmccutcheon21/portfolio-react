@@ -28,7 +28,7 @@ const projects = [
     {
         name: 'Real Estate App',
         image: RealEstate,
-        description: 'React, TailwindCSS, Next.js, Axios, Chakra-UI',
+        description: 'React, Next.js, Axios, Chakra-UI',
         link: 'https://realestate-tau-lac.vercel.app/',
         id: 'project-3'
     },
