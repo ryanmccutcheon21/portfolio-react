@@ -2,16 +2,11 @@ import React from 'react'
 import './index.scss'
 import AnimatedLetters from '../../components/AnimatedLetters'
 import { Link } from 'react-router-dom'
-import { technologies, linkedIn, experienceParagraph } from '../../data'
+import { technologies, linkedIn, experienceParagraph, workExperience } from '../../data'
 import Education from './Education/Education'
 
 
 const Skills = () => {
-
-    const techList = technologies?.map(tech =>
-        <p className={`border-b-2 ${tech.color} pb-2 text-[2rem]`}>{tech.name}</p>
-    )
-
     return (
         <div className='container skills-page overflow-scroll'>
             <div className='text-zone'>
@@ -30,11 +25,22 @@ const Skills = () => {
             </div>
 
             {/* Technologies */}
-
-            <div className='technology-container flex flex-col pt-10'>
-                {techList}
-                <Education />
+            <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 gap-4">
+                {technologies?.map((tech) => (
+                    <div className="text-white flex pt-10 mx-auto">
+                        <p className={`border-b-2 ${tech.color} pb-2 text-[2rem]`}>
+                            {tech.name}
+                        </p>
+                    </div>
+                ))}
             </div>
+
+            {/* Work Experience */}
+
+
+
+            {/* School Experience */}
+            <Education />
         </div >
     )
 }

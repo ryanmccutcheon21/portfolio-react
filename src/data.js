@@ -16,6 +16,10 @@ export const technologies = [
         color: 'border-yellow-400'
     },
     {
+        name: 'TypeScript',
+        color: 'border-blue-600'
+    },
+    {
         name: 'Next.js',
         color: 'border-white'
     },
@@ -32,12 +36,8 @@ export const technologies = [
         color: 'border-green-600'
     },
     {
-        name: 'Express',
+        name: 'Express.js',
         color: 'border-white'
-    },
-    {
-        name: 'Vue',
-        color: 'border-green-600'
     },
     {
         name: 'Bootstrap',
@@ -48,24 +48,85 @@ export const technologies = [
         color: 'border-blue-400'
     },
     {
-        name: 'MaterialUI',
+        name: 'Material UI',
         color: 'border-blue-400'
+    },
+    {
+        name: 'Chakra UI',
+        color: 'border-green-400'
     },
     {
         name: 'Java',
         color: 'border-red-800'
-    }
+    },
+    {
+        name: 'PHP',
+        color: 'border-blue-500'
+    },
+    {
+        name: 'MySQL',
+        color: 'border-blue-400'
+    },
 ]
 
-export const experienceParagraph = `Software Developer with 2 years of hands-on experience developing with React or other JavaScript based technologies. Knowledgeable on all aspects of Facebook's design best practices and emerging UI development techniques. Skilled at connecting assets with users via creative UI frameworks and careful user experience optimization. Ability to work across the full-stack of web development utilizing knowledge of Node.js, and other JavaScript based back-end technologies.`
+export const experienceParagraph = `Software Developer with 2 years of hands-on experience developing with React or other JavaScript based technologies. Knowledgeable on all aspects of Meta's design best practices and emerging UI development techniques. Ability to work across the full-stack of web development utilizing knowledge of Node.js, and other JavaScript based back-end technologies.`
 
 export const linkedIn = `https://www.linkedin.com/in/ryan-mccutcheon-185b261b8/`
+
+export const workExperience = {
+    ArroyoSecoSaints: {
+        date: 'Nov 2022 - Present',
+        title: 'Full Stack Developer - Internship',
+        company: 'Arroyo Seco Saints',
+        responsibilities: [
+            'Help develop the calsummerball league website',
+            'Develop and design the Arroyo Seco Saints website',
+            'Work with Statistics interns to develop stat-based website functions',
+            'Assist staff members in technology and computing troubleshooting',
+            'Report to Manager for special projects throughout the season'
+        ],
+        technologies: [
+            'JavaScript',
+            'React',
+            'Node.js',
+            'Jest',
+            'Mongoose',
+            'React Testing Library',
+            'HTML',
+            'CSS',
+            'MongoDB',
+            'RESTful API',
+            'GitHub',
+            'Express.js',
+            'Wordpress',
+            'PHP',
+        ]
+    }
+}
 
 export const schoolExperience = {
     SAU: {
         degree: 'Master of Science, MS - Computer and Information Science',
         school: 'Southern Arkansas University',
         dateAttended: 'Aug 2022 - Current',
+        clientSideLectures: [
+            'Introduction to HTML, Client-Server Model',
+            'HTML Basics',
+            'Introduction to CSS',
+            'CSS Text Formatting',
+        ],
+        serverSideLectures: [
+            'Clinet-Server Model',
+            'PHP Basics',
+            'Programming with PHP: Form Hanlding',
+            'Programming with PHP: Arrays and Loops',
+        ],
+        dbmsLectures: [
+            'Relational Model',
+            'Relational Algebra',
+            'SQL',
+            'Apache, PHP, MySQL',
+        ],
         lectures: [
             'Inheritance',
             'GUI Apps',
